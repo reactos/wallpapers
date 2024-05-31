@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build a zip file from wallpapers
+# Create a zip file from wallpapers
 
 if ! command -v zip &> /dev/null
 then
