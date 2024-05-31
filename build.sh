@@ -21,7 +21,7 @@ if [ -f "$ZIP_FILE" ]; then
     rm "$ZIP_FILE"
 fi
 
-WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png}`
+WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png}` README.txt LICENSE.txt
 
 zip -j "$ZIP_FILE" $WALLPAPERS_LIST
 
