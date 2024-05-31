@@ -1,0 +1,5 @@
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/ReactOS_CirclesBlue_1.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/ReactOS_CirclesBlue_2.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/ReactOS_CirclesGold_1.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/ReactOS_CirclesGold_2.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/ReactOS_Hexagons.jpg DESTINATION reactos/Web/Wallpaper FOR all)
