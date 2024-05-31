@@ -2,8 +2,8 @@
 
 if ! command -v zip &> /dev/null
 then
-    echo "build.sh: No zip program found."
-    exit 1
+  echo "build.sh: No zip program found."
+  exit 1
 fi
 
 OLD_DIR=`pwd`
@@ -18,15 +18,15 @@ echo OUTPUT_DIR=$OUTPUT_DIR
 echo ZIP_FILE=$ZIP_FILE
 
 if [ ! -d "$OUTPUT_DIR" ]; then
-    mkdir "$OUTPUT_DIR"
+  mkdir "$OUTPUT_DIR"
 fi
 
 if [ -f "$ZIP_FILE" ]; then
-    rm "$ZIP_FILE"
+  rm "$ZIP_FILE"
 fi
 
 WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png} 2> /dev/null`
 
-zip -j "$ZIP_FILE" $WALLPAPERS_LIST  README.txt LICENSE.txt
+zip -j "$ZIP_FILE" $WALLPAPERS_LIST README.txt LICENSE.txt
 
 cd $OLD_DIR
