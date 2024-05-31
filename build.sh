@@ -10,7 +10,7 @@ OLD_DIR=`pwd`
 NEW_DIR=$(dirname "$0")
 echo NEW_DIR=$NEW_DIR
 
-cd $NEW_DIR
+cd "$NEW_DIR"
 
 OUTPUT_DIR=$NEW_DIR/output
 ZIP_FILE=$OUTPUT_DIR/wallpapers.zip
@@ -29,4 +29,4 @@ WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png,tif,gif,bmp} 2> /dev/null`
 
 zip -j "$ZIP_FILE" $WALLPAPERS_LIST README.txt LICENSE.txt
 
-cd $OLD_DIR
+cd "$OLD_DIR"
