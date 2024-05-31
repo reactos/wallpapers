@@ -1,15 +1,19 @@
 #!/usr/bin/env bash
 
+if ! command -v zip &> /dev/null
+then
+    echo "build.sh: No zip program found."
+    exit 1
+fi
+
 OLD_DIR=`pwd`
-NOW_DIR=$(dirname "$0")
+NEW_DIR=$(dirname "$0")
+echo NEW_DIR=$NEW_DIR
 
-echo NOW_DIR=$NOW_DIR
-cd $NOW_DIR
-pwd
+cd $NEW_DIR
 
-OUTPUT_DIR=`pwd`/output
+OUTPUT_DIR=$NEW_DIR/output
 ZIP_FILE=$OUTPUT_DIR/wallpapers.zip
-
 echo OUTPUT_DIR=$OUTPUT_DIR
 echo ZIP_FILE=$ZIP_FILE
 
@@ -21,8 +25,8 @@ if [ -f "$ZIP_FILE" ]; then
     rm "$ZIP_FILE"
 fi
 
-WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png}` README.txt LICENSE.txt
+WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png} 2> /dev/null`
 
-zip -j "$ZIP_FILE" $WALLPAPERS_LIST
+zip -j "$ZIP_FILE" $WALLPAPERS_LIST  README.txt LICENSE.txt
 
 cd $OLD_DIR
