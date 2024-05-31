@@ -3,7 +3,7 @@
 
 if ! command -v zip &> /dev/null
 then
-  echo "build.sh: No zip program found."
+  echo "make-zip.sh: No zip program found."
   exit 1
 fi
 
