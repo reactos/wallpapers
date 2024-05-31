@@ -10,6 +10,6 @@ Installer = Generate
 SizeBytes = ???
 
 [Generate]
-Files = wallpapers/*
+Files = *
 Dir = %SystemRoot%\Web\Wallpaper
 Lnk = !
