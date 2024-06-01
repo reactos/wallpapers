@@ -28,6 +28,10 @@ fi
 
 WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png,tif,gif,bmp} 2> /dev/null`
 
-zip -j "$ZIP_FILE" $WALLPAPERS_LIST README.txt LICENSE.txt
+cp -f README.md /tmp/README.txt
+
+zip -j "$ZIP_FILE" $WALLPAPERS_LIST /tmp/README.txt LICENSE.txt
+
+rm /tmp/README.txt
 
 cd "$OLD_DIR"
