@@ -1,0 +1,15 @@
+[Section]
+Name = ReactOS Standard Wallpapers
+Version = ???
+License = CC BY
+Description = The standard wallpaper collection for ReactOS
+Category = 16
+URLSite = https://github.com/reactos/wallpapers/
+URLDownload = https://github.com/reactos/wallpapers/releases/download/???/wallpapers.zip
+Installer = Generate
+SizeBytes = ???
+
+[Generate]
+Files = *
+Dir = %SystemRoot%\Web\Wallpaper
+Lnk = !
