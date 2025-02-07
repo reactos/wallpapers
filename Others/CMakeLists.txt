@@ -3,4 +3,4 @@ add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/clouds.jpg DESTINATION reactos/Web/
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/grass.jpg DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/lake.jpg DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/lake.jpg DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/bluestars.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/starlight.png DESTINATION reactos/Web/Wallpaper FOR all)
