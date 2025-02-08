@@ -26,13 +26,15 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | ReactOS_Mizu_16x9_B.png            | See above                                     | See above                                                  |
 | Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
 
-## Manage this repository update
+## Manage this repository
 
-Current wallpaper manager: https://reactos.com/katahiromz
+### Who is the wallpaper manager?
 
-If any change happened, then the wallpaper manager has to update https://github.com/reactos/rapps-db/blob/master/roswallp.txt for downloading "ReactOS Standard Wallpapers" (`roswallp`) on "ReactOS Application Manager" (`rapps`).
+- Current wallpaper manager: https://reactos.com/katahiromz
 
 ### The wallpaper manager's main job:
+
+If any change happened on `wallpapers`, then the wallpaper manager has to update https://github.com/reactos/rapps-db/blob/master/roswallp.txt for downloading "ReactOS Standard Wallpapers" (`roswallp`) with using "ReactOS Applications Manager" database ([`rapps-db`](https://github.com/reactos/rapps-db)) as follows:
 
 1. Carry out voting or pull request before any important change on `wallpapers` repository.
 2. Update `wallpapers` repository.
