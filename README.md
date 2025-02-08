@@ -32,12 +32,13 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 
 - Current wallpaper manager: https://reactos.com/katahiromz
 
-### The wallpaper manager's main job:
+### The wallpaper manager's main job
 
-If any change happened on `wallpapers`, then the wallpaper manager has to update https://github.com/reactos/rapps-db/blob/master/roswallp.txt for downloading "ReactOS Standard Wallpapers" (`roswallp`) with using "ReactOS Applications Manager" database ([`rapps-db`](https://github.com/reactos/rapps-db)) as follows:
+If any change happened on `wallpapers`, then the wallpaper manager has to update https://github.com/reactos/rapps-db/blob/master/roswallp.txt for downloading "ReactOS Standard Wallpapers" (`roswallp`) with using "ReactOS Applications Manager" database ([`reactos/rapps-db`](https://github.com/reactos/rapps-db)) as follows:
 
 1. Carry out voting or pull request before any important change on `wallpapers` repository.
 2. Update `wallpapers` repository.
 3. Run `./make-zip.sh` on latest `wallpapers` local repository.
-4. Release generated file `wallpapers.zip` on https://github.com/reactos/wallpapers/releases with tag `v???` (version number).
-5. Comparing this repository's [`roswallp.txt`](roswallp.txt) with `rapps-db`'s `roswallp.txt`, update `rapps-db`'s `roswallp.txt`.
+4. File `wallpapers.zip` will be generated.
+5. Release `wallpapers.zip` on `reactos/wallpapers` Release page ( https://github.com/reactos/wallpapers/releases ) with tag `v???` (a new version number).
+6. Update data file `roswallp.txt` on `rapps-db`, comparing this repository's sample [`roswallp.txt`](roswallp.txt), and checking the file size of new `wallpapers.zip`.
