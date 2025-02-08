@@ -26,7 +26,7 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 
 ## File size
 
-The file size of one wallpaper file should be smaller than 300 KB. The recommended size is 150 KB or less.
+The file size of one wallpaper file should be smaller than 300 KB. The recommended size is 150 KB or smaller.
 
 ## Manage this repository
 
