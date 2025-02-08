@@ -1,13 +1,13 @@
 [Section]
 Name = ReactOS Standard Wallpapers
-Version = ???
+Version = (TODO: Version number in digits only)
 License = CC BY
 Description = The standard wallpaper collection for ReactOS
 Category = 16
 URLSite = https://github.com/reactos/wallpapers/
-URLDownload = https://github.com/reactos/wallpapers/releases/download/???/wallpapers.zip
+URLDownload = https://github.com/reactos/wallpapers/releases/download/v(TODO: Version number)/wallpapers.zip
 Installer = Generate
-SizeBytes = ???
+SizeBytes = (TODO: File size in digits only)
 
 [Generate]
 Files = *
