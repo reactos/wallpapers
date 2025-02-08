@@ -43,4 +43,4 @@ If any changes are made to the `wallpapers` repository, then the wallpaper manag
 3. Run `./make-zip.sh` on the latest `wallpapers` local repository.
 4. The file `output/wallpapers.zip` will be generated.
 5. Release the new `wallpapers.zip` on the `reactos/wallpapers` `Releases` page ( https://github.com/reactos/wallpapers/releases ) with a new version tag (`v???`).
-6. Update the data file `roswallp.txt` on `reactos/rapps-db` by comparing it with this repository's [`roswallp-sample.txt`](roswallp-sample.txt) and checking the file size of the new `wallpapers.zip`.
+6. Update the data file `roswallp.txt` on `reactos/rapps-db` by comparing it with this repository's [`roswallp-sample.txt`](roswallp-sample.txt) (See `TODO:` parts).
