@@ -22,5 +22,27 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | ReactOS_Mizu_4x3.png               | See above                                     | See above                                                  |
 | ReactOS_Mizu_16x9_A.png            | See above                                     | See above                                                  |
 | ReactOS_Mizu_16x9_B.png            | See above                                     | See above                                                  |
-| Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
-| Starlight.png                      | jctcoding@gmail.com                           | JCTcoding                                               |
+| Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         | 
+| Starlight.png                      | jctcoding@gmail.com                           | JCTcoding                                                  |
+=======
+
+## File size
+
+The file size of one wallpaper file should be smaller than 300 KB. The recommended size is 150 KB or smaller.
+
+## Manage this repository
+
+### Who is the wallpaper manager?
+
+- Current wallpaper manager: https://reactos.com/katahiromz
+
+### The job of the wallpaper manager
+
+If any changes are made to the `wallpapers` repository, then the wallpaper manager has to update `roswallp.txt` in `reactos/rapps-db`, for downloading "ReactOS Standard Wallpapers" package (`roswallp`), as follows:
+
+1. Hold a poll or create a pull request before making any significant changes to the `wallpapers` repository.
+2. Update the `wallpapers` repository.
+3. Run `./make-zip.sh` on the latest `wallpapers` local repository.
+4. The file `output/wallpapers.zip` will be generated.
+5. Release the new `wallpapers.zip` on the `reactos/wallpapers` `Releases` page ( https://github.com/reactos/wallpapers/releases ) with a new version tag (`v???`).
+6. Update the data file `roswallp.txt` on `reactos/rapps-db` by comparing it with this repository's [`roswallp-sample.txt`](roswallp-sample.txt) (See `TODO:` parts).
