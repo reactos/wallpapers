@@ -24,6 +24,10 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | ReactOS_Mizu_16x9_B.png            | See above                                     | See above                                                  |
 | Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
 
+## File size
+
+The file size of one wallpaper file should be smaller than 300 KB. 150 KB or less is recommended.
+
 ## Manage this repository
 
 ### Who is the wallpaper manager?
