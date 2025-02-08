@@ -30,7 +30,7 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 
 - Current wallpaper manager: https://reactos.com/katahiromz
 
-### The job of wallpaper manager
+### The job of the wallpaper manager
 
 If any changes are made to the `wallpapers` repository, then the wallpaper manager has to update `roswallp.txt` in `reactos/rapps-db`, for downloading "ReactOS Standard Wallpapers" package (`roswallp`), as follows:
 
