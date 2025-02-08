@@ -23,4 +23,4 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | ReactOS_Mizu_16x9_A.png            | See above                                     | See above                                                  |
 | ReactOS_Mizu_16x9_B.png            | See above                                     | See above                                                  |
 | Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
-| starlight.png                      | jctcoding@gmail.com                           | Pull Request                                               |
+| starlight.png                      | jctcoding@gmail.com                           | JCTcoding                                               |
