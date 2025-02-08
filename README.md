@@ -35,8 +35,8 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 If any changes are made to the `wallpapers` repository, then the wallpaper manager has to update `roswallp.txt` in `reactos/rapps-db`, for downloading "ReactOS Standard Wallpapers" package (`roswallp`), as follows:
 
 1. Conduct an election or create a pull request before making any significant changes to the `wallpapers` repository.
-2. Update `wallpapers` repository.
-3. Run `./make-zip.sh` on latest `wallpapers` local repository.
-4. File `output/wallpapers.zip` will be generated.
-5. Release new `wallpapers.zip` on `reactos/wallpapers` `Releases` page ( https://github.com/reactos/wallpapers/releases ) with tag `v???` (a new version number).
-6. Update data file `roswallp.txt` on `reactos/rapps-db`, comparing this repository's [`roswallp-sample.txt`](roswallp-sample.txt), and checking the file size of new `wallpapers.zip`.
+2. Update the `wallpapers` repository.
+3. Run `./make-zip.sh` on the latest `wallpapers` local repository.
+4. The file `output/wallpapers.zip` will be generated.
+5. Release the new `wallpapers.zip` on the `reactos/wallpapers` `Releases` page ( https://github.com/reactos/wallpapers/releases ) with a new version tag (`v???`).
+6. Update the data file `roswallp.txt` on `reactos/rapps-db` by comparing it with this repository's [`roswallp-sample.txt`](roswallp-sample.txt) and checking the file size of the new `wallpapers.zip`.
