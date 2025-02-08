@@ -1,7 +1,5 @@
 # wallpapers
 
-## Overview
-
 This repository contains wallpapers for use in rapps.
 
 You can download these wallpapers from the "ReactOS Standard Wallpapers" package in the ReactOS Applications Manager.
