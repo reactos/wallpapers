@@ -1,5 +1,7 @@
 # wallpapers
 
+## Overview
+
 This repository contains wallpapers for use in rapps.
 
 You can download these wallpapers from the "ReactOS Standard Wallpapers" package in the ReactOS Applications Manager.
@@ -23,3 +25,17 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | ReactOS_Mizu_16x9_A.png            | See above                                     | See above                                                  |
 | ReactOS_Mizu_16x9_B.png            | See above                                     | See above                                                  |
 | Silhouette collection              | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
+
+## Manage this repository update
+
+Current wallpaper manager: https://reactos.com/katahiromz
+
+If any change happened, then the wallpaper manager has to update https://github.com/reactos/rapps-db/blob/master/roswallp.txt for downloading "ReactOS Standard Wallpapers" (`roswallp`) on "ReactOS Application Manager" (`rapps`).
+
+### The wallpaper manager's main job:
+
+1. Carry out voting or pull request before any important change on `wallpapers` repository.
+2. Update `wallpapers` repository.
+3. Run `./make-zip.sh` on latest `wallpapers` local repository.
+4. Release generated file `wallpapers.zip` on https://github.com/reactos/wallpapers/releases with tag `v???` (version number).
+5. Comparing this repository's [`roswallp.txt`](roswallp.txt) with `rapps-db`'s `roswallp.txt`, update `rapps-db`'s `roswallp.txt`.
