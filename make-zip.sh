@@ -44,7 +44,11 @@ done
 
 cp -f README.md /tmp/README.txt
 
-zip -j "$ZIP_FILE" $WALLPAPERS_LIST /tmp/README.txt LICENSE.txt
+zip -j -q "$ZIP_FILE" $WALLPAPERS_LIST /tmp/README.txt LICENSE.txt
+
+if [ "$?" -eq "0" ] && [ -f "$ZIP_FILE" ]; then
+  echo "$ZIP_FILE is generated"
+fi
 
 rm /tmp/README.txt
 
