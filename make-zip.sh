@@ -47,7 +47,14 @@ cp -f README.md /tmp/README.txt
 zip -j -q "$ZIP_FILE" $WALLPAPERS_LIST /tmp/README.txt LICENSE.txt
 
 if [ "$?" -eq "0" ] && [ -f "$ZIP_FILE" ]; then
-  echo "$ZIP_FILE is generated"
+    file_size=`wc -c "$ZIP_FILE" | cut -d' ' -f1`
+    let KB="$file_size / 1024"
+    let MB="$KB / 1024"
+    if [ $MB -gt 1 ]; then
+        echo "$ZIP_FILE ($MB MB) is generated"
+    else
+        echo "$ZIP_FILE ($KB KB) is generated"
+    fi
 fi
 
 rm /tmp/README.txt
