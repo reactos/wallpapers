@@ -1,2 +1,2 @@
-add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus ReactOS Sea 16x9.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus ReactOS Sea 4x3.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus Far Beyond The Sea 16x9.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus Far Beyond The Sea 4x3.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
