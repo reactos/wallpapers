@@ -20,8 +20,8 @@ An underwater ambiance.
 ------------------
 Photography taken at Corrubedo, a beautiful place in the northwest of Spain.
 
-Flower (WaterLily)
-------------------
+WaterLily
+---------
 Photo of water lily using the HDR technique with 3 shots of -1/0/+1 EV.
 
 Rain in the Screen
