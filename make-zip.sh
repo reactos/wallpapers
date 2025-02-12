@@ -28,6 +28,20 @@ fi
 
 WALLPAPERS_LIST=`ls **{,/**}/*.{jpg,png,tif,gif,bmp} 2> /dev/null`
 
+# File size check
+for file in $WALLPAPERS_LIST; do
+    file_size=`wc -c "$file" | cut -d' ' -f1`
+    let KB="$file_size / 1024"
+    if [ $KB -gt 800 ]; then
+        let MB="$KB / 1024"
+        if [ $MB -gt 1 ]; then
+            echo "WARNING: $file : $MB MB"
+        else
+            echo "WARNING: $file : $KB KB"
+        fi
+    fi
+done
+
 cp -f README.md /tmp/README.txt
 
 zip -j "$ZIP_FILE" $WALLPAPERS_LIST /tmp/README.txt LICENSE.txt
