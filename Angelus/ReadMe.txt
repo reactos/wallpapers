@@ -45,8 +45,8 @@ Sea Series
 Sky Series
 ----------
 
-RosVista Series
----------------
+VistaReactOS Series
+-------------------
 Wallpaper inspired by the look of Redmond Vista's but with the feel of ReactOS.
 With colours of Vista, and ReactOS logo.
 
