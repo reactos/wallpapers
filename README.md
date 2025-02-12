@@ -10,9 +10,9 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | "Angelus 02_ROSWP 4-3 1440x1080.jpg" | See above                                     | See above                                                  |
 | "Angelus 02_ROSWP 4-3 1024x768.jpg"  | See above                                     | See above                                                  |
 | "Polarlicht 1920px.jpg"              | Public domain                                 | https://jira.reactos.org/browse/CORE-8446 and links inside |
-| grass.jpg                            | See above                                     | See above                                                  |
-| clouds.jpg                           | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
-| lake.jpg                             | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
+| Grass.jpg                            | See above                                     | See above                                                  |
+| Clouds.jpg                           | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
+| Lake.jpg                             | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
 | "ReactOS CirclesBlue 1.jpg"          | Forum user "henrytang5247" (Henry Tang)       | https://reactos.org/forum/viewtopic.php?p=109529#p109529   |
 | "ReactOS CirclesBlue 2.jpg"          | See above                                     | See above                                                  |
 | "ReactOS CirclesGold 1.jpg"          | See above                                     | See above                                                  |
