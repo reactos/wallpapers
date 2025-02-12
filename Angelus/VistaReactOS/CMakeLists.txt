@@ -3,7 +3,7 @@ add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 02 ROSWP 16-9 1920x1080 WO
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 02 ROSWP 4-3 1440x1080.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 02 ROSWP 4-3 1440x1080 WOT.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 03 ROSWP 16-9 1920x1080.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 03 ROSWP 16-9 1920x1080_WOT.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 03 ROSWP 16-9 1920x1080 WOT.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 03 ROSWP 4-3 1440x1080.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 03 ROSWP 4-3 1440x1080 WOT.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Angelus 02 ROSWP 4-3 1024x768.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
