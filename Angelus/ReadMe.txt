@@ -20,10 +20,6 @@ An underwater ambiance.
 ------------------
 Photography taken at Corrubedo, a beautiful place in the northwest of Spain.
 
-Flower (WaterLily)
-------------------
-Photo of water lily using the HDR technique with 3 shots of -1/0/+1 EV.
-
 Rain in the Screen
 ------------------
 Photo was taken from the author's room window in a raining afternoon.
@@ -53,3 +49,7 @@ VistaReactOS Series
 -------------------
 Wallpaper inspired by the look of Redmond Vista's but with the feel of ReactOS.
 With colours of Vista, and ReactOS logo.
+
+WaterLily
+---------
+Photo of water lily using the HDR technique with 3 shots of -1/0/+1 EV.

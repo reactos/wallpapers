@@ -1,4 +1,4 @@
-add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/1920px_Polarlicht.jpg DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/clouds.jpg DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/grass.jpg DESTINATION reactos/Web/Wallpaper FOR all)
-add_cd_file(FILE ${CMAKE_CURRENT_SOURCE_DIR}/lake.jpg DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Polarlicht 1920x1251.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Clouds 1024x768.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Grass 4182x2788.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/Lake 1024x768.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
