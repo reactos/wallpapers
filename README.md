@@ -8,7 +8,7 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 |--------------------------------------|-----------------------------------------------|------------------------------------------------------------|
 | Angelus collection                   | Forum user "Angelus" (jedi.knight@wanadoo.es) | https://reactos.org/forum/viewtopic.php?p=50543#p50543     |
 | "Polarlicht 1920x1251.jpg"           | Public domain                                 | https://jira.reactos.org/browse/CORE-8446 and links inside |
-| "Grass 4182x2788.jpg"                | See above                                     | See above                                                  |
+| "Grass 3840x2560.jpg"                | See above                                     | See above                                                  |
 | "Clouds 1024x768.jpg"                | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
 | "Lake 1024x768.jpg"                  | Andreas Bjerkeholt (harteex@gmail.com)        | https://reactos.org/forum/viewtopic.php?p=17732#p17732     |
 | "ReactOS CirclesBlue 1 1646x924.jpg" | Forum user "henrytang5247" (Henry Tang)       | https://reactos.org/forum/viewtopic.php?p=109529#p109529   |
