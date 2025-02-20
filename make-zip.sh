@@ -10,7 +10,7 @@ fi
 WORK_DIR=$(dirname "$0")
 OUTPUT_DIR=$WORK_DIR
 ZIP_FILE=$OUTPUT_DIR/wallpapers.zip
-MAX_KB=800
+MAX_KB=650
 
 echo "make-zip.sh: WORK_DIR=$WORK_DIR"
 echo "make-zip.sh: OUTPUT_DIR=$OUTPUT_DIR"
