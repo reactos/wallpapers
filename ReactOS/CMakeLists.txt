@@ -3,3 +3,4 @@ add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/ReactOS CirclesBlue 2 1168x691.jpg
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/ReactOS CirclesGold 1 1646x924.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/ReactOS CirclesGold 2 1168x691.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
 add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/ReactOS Hexagons 1280x693.jpg" DESTINATION reactos/Web/Wallpaper FOR all)
+add_cd_file(FILE "${CMAKE_CURRENT_SOURCE_DIR}/ReactOS Nebula 1920x1080.jpg" DESTINATION reactos/Web/Wallpaper FOR all)

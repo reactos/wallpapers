@@ -20,6 +20,7 @@ You can download these wallpapers from the "ReactOS Standard Wallpapers" package
 | "ReactOS Mizu 4x3 1440x1080.png"     | See above                                     | See above                                                  |
 | "ReactOS Mizu A 16x9 1920x1080.png"  | See above                                     | See above                                                  |
 | "ReactOS Mizu B 16x9 1920x1080.png"  | See above                                     | See above                                                  |
+| "ReactOS Nebula 1920x1080.jpg"       | community member _twotime on Discord          | https://jira.reactos.org/browse/RELEASE-7                  |
 | Silhouette collection                | Jake Collins (polar@ever3st.com)              | https://ever3st.com/Graphics/Loot/                         |
 
 ## File size
